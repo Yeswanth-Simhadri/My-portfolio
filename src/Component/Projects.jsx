@@ -4,34 +4,35 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Importing assets
-import BikroyElectronics from "../assets/websiteThumbnail/bikroyelectronics.webp";
-import motionArt from "../assets/websiteThumbnail/motion-art.webp";
-import topicTrove from "../assets/websiteThumbnail/topic-trove.webp";
-import weddingHut from "../assets/websiteThumbnail/wedding-hut.webp";
+import AIconomy from "../assets/websiteThumbnail/AIconomy.png";
+import WanderLust from "../assets/websiteThumbnail/WanderLust.png";
+import SptifyClone from "../assets/websiteThumbnail/SptifyClone.png";
 import assetHexa from "../assets/websiteThumbnail/asset-hexa.webp";
-
+import rock from "../assets/websiteThumbnail/RockPaperScissors.png";
+import weather from "../assets/websiteThumbnail/Weather App.png";
+import simons from "../assets/websiteThumbnail/SimonsSays.png";
 const Projects = () => {
 	const Data = [
 		{
-			title: "Aiconamy",
+			title: "Aiconomy",
 			description: "A finance tracking system using AI for expense analysis.",
-			thumbnailImage: BikroyElectronics,
+			thumbnailImage: AIconomy,
 			category: "FullStack",
-			serverLink: "https://github.com/Mustafiz82/BikroyElectronics-server",
+			serverLink: "https://github.com/Yeswanth-Simhadri/AIconomy",
 			liveLink: "https://bikroyelectronics.web.app/",
 		},
 		{
 			title: "wander Lust",
 			description: "A finance tracking system using AI for expense analysis.",
-			thumbnailImage: BikroyElectronics,
+			thumbnailImage: WanderLust,
 			category: "FullStack",
-			serverLink: "https://github.com/Mustafiz82/BikroyElectronics-server",
+			serverLink: "https://github.com/Yeswanth-Simhadri/wanderlust-project",
 			liveLink: "https://bikroyelectronics.web.app/",
 		},
 		{
 			title: "Photography",
 			description: "A simple HTML & CSS project for showcasing photography.",
-			thumbnailImage: motionArt,
+			thumbnailImage: WanderLust,
 			category: "FrontEnd",
 			serverLink: "https://github.com/Yeswanth-Simhadri/Project-CSS-Photography",
 		},
@@ -52,31 +53,30 @@ const Projects = () => {
 		{
 			title: "Spotify clone",
 			description: "A responsive React app with authentication & animations.",
-			thumbnailImage: weddingHut,
+			thumbnailImage: SptifyClone,
 			category: "FrontEnd",
 			serverLink: "https://github.com/Yeswanth-Simhadri/Spotify-clone-CSS-HTML",
 		},
 		{
 			title: "Simons says game",
 			description: "A memory-based game implemented using JavaScript.",
-			thumbnailImage: topicTrove,
+			thumbnailImage: simons,
 			category: "FrontEnd",
 			serverLink: "https://github.com/Yeswanth-Simhadri/Simons-Says-Game",
 		},
 		{
 			title: "Rock-Paper-Scissors",
 			description: "A memory-based game implemented using JavaScript.",
-			thumbnailImage: topicTrove,
+			thumbnailImage: rock,
 			category: "FrontEnd",
 			serverLink: "https://github.com/Yeswanth-Simhadri/Web-Fun-Rock-Paper-Scissors-Amazon-Card-YouTube-Button",
 		},
 		{
 			title: "whether app",
 			description: "A finance tracking system using AI for expense analysis.",
-			thumbnailImage: BikroyElectronics,
-			category: "FullStack",
-			serverLink: "https://github.com/Mustafiz82/BikroyElectronics-server",
-			liveLink: "https://bikroyelectronics.web.app/",
+			thumbnailImage: weather,
+			category: "FrontEnd",
+			serverLink: "https://github.com/Yeswanth-Simhadri/React-Weather-website-",
 		},
 	];
 

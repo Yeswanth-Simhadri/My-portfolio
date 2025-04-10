@@ -20,7 +20,7 @@ const Footer = () => {
         emailjs
             .sendForm(
                 "service_4pgriez",  // ✅ Your EmailJS service ID
-                "template_rprxf3l",  // ✅ Updated template ID
+                "template_rprxf3l",  // ✅ Your EmailJS template ID
                 form.current,
                 "mLEgYgx0fOfkNwpku"  // ✅ Your EmailJS public key
             )
@@ -32,6 +32,7 @@ const Footer = () => {
                 },
                 (error) => {
                     console.log("Error sending email:", error.text);
+                    toast.error("Failed to send email. Please try again.");
                     setSendBtnMessage("Send Failed");
                 }
             );
@@ -87,6 +88,9 @@ const Footer = () => {
                 <h1 className="text-3xl font-bold my-5">Send me an Email</h1>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="flex flex-col gap-6">
+                        {/* Hidden Field for Recipient Email */}
+                        <input type="hidden" name="to_email" value="yeswanth1704@gmail.com" />
+
                         <input
                             type="text"
                             placeholder="Full Name"
