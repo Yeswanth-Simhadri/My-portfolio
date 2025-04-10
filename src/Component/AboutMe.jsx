@@ -1,6 +1,4 @@
 import React from 'react';
-import image from "../assets/round photo.jpg"
-
 const AboutMe = () => {
 
 

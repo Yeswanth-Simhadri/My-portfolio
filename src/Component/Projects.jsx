@@ -77,6 +77,7 @@ const Projects = () => {
 			thumbnailImage: weather,
 			category: "FrontEnd",
 			serverLink: "https://github.com/Yeswanth-Simhadri/React-Weather-website-",
+			
 		},
 	];
 
