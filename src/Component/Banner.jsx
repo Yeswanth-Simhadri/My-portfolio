@@ -46,7 +46,7 @@ const Banner = () => {
           />
 
           <p className="leading-relaxed text-justify text-lg text-white">
-            Hi, I’m Yeswanth, a tech enthusiast with expertise in Machine Learning, MERN Stack, DSA, and certified in ServiceNow CSA & CAD. I enjoy building intelligent models, seamless web apps, and efficient workflow automation.
+            Tech enthusiast with expertise in Machine Learning, MERN Stack, DSA, and certified in ServiceNow CSA & CAD. I enjoy building intelligent models, seamless web apps, and efficient workflow automation.
           </p>
 
           <p className="leading-relaxed text-justify text-lg text-white">
