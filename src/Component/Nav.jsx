@@ -42,7 +42,9 @@ const Nav = () => {
 			<div className="navbar px-20 justify-evenly lg:max-w-[1800px] w-full mx-auto hidden lg:flex bg-transparent ">
 				<div className="flex-1">
 					<a href="#home" >
-						<h1>Home</h1>
+						<h1 className="text-	xl font-bold bg-gradient-to-r from-[#61CE70] via-white to-[#61CE70] bg-clip-text text-transparent tracking-wide hover:scale-105 transition-transform duration-300">
+  Yeswanth Simhadri
+</h1>
 					</a>
 
 				</div>
@@ -97,9 +99,11 @@ const Nav = () => {
 						</ul>
 					)}
 				</div>
-				<a href="#home">
-					<img className="h-12 w-40" src={logo} alt="Logo" />
-				</a>
+				<a href="#home" >
+						<h1 className="text-	xl font-bold bg-gradient-to-r from-[#61CE70] via-white to-[#61CE70] bg-clip-text text-transparent tracking-wide hover:scale-105 transition-transform duration-300">
+  Yeswanth Simhadri
+</h1>
+					</a>
 			</div>
 		</div>
 	);

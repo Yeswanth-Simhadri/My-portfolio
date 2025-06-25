@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiCheckCircle } from 'react-icons/fi';
 import hashtekImage from "../assets/aws.png"; // Add your image here
 
 const Internship = () => {
@@ -24,22 +23,20 @@ const Internship = () => {
                     <h2 className='text-lg hidden md:block my-3 font-medium text-gray-300'>Hashtek Solution, Vizag | One Month</h2>
                     <h2 className='my-2 lg:hidden text-lg'>Hashtek Solution, Vizag | One Month</h2>
 
-                    <ul className='list-disc mt-5 md:ml-5 space-y-3 md:pl-5'>
-                        <li className='flex items-start gap-3 leading-relaxed'>
-                            <FiCheckCircle className="text-primaryColor" />
-                            <span>Gained hands-on experience with AWS services including EC2, S3, RDS, and IAM.</span>
+                    <ul className='mt-5 space-y-5 pl-4 text-white list-none'>
+                        <li className='flex items-start gap-2'>
+                            <span className="text-[#61CE70] text-2xl leading-tight">•</span>
+                            <span>
+                                Proficient in core AWS services including EC2, S3, IAM, VPN, and Load Balancers, with hands-on experience deploying
+                                scalable and secure cloud solutions tailored to diverse IT infrastructure needs.
+                            </span>
                         </li>
-                        <li className='flex items-start gap-3 leading-relaxed'>
-                            <FiCheckCircle className="text-primaryColor" />
-                            <span>Deployed and managed cloud-based applications ensuring scalability and security.</span>
-                        </li>
-                        <li className='flex items-start gap-3 leading-relaxed'>
-                            <FiCheckCircle className="text-primaryColor" />
-                            <span>Configured and optimized AWS infrastructure to enhance performance and cost efficiency.</span>
-                        </li>
-                        <li className='flex items-start gap-3 leading-relaxed'>
-                            <FiCheckCircle className="text-primaryColor" />
-                            <span>Collaborated on cloud automation using scripting and Infrastructure as Code (IaC).</span>
+                        <li className='flex items-start gap-2'>
+                            <span className="text-[#61CE70] text-2xl leading-tight">•</span>
+                            <span>
+                                Demonstrated strong understanding of cloud architecture and service models (IaaS, PaaS, SaaS), leveraging AWS to
+                                enhance scalability, cost-efficiency, and cross-functional collaboration across modern business environments.
+                            </span>
                         </li>
                     </ul>
                 </div>
