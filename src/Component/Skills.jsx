@@ -1,19 +1,20 @@
-import html from "../assets/icons/html.svg"
-import css from "../assets/icons/css.svg"
-import js from "../assets/icons/js.svg"
-import mongoDB from "../assets/icons/mongoDB.svg"
-import nodeJs from "../assets/icons/nodeJs.json"
-import expressjs from "../assets/icons/expressjs.svg"
-import ml from "../assets/icons/ml.webp"
+import html from "../assets/icons/html.svg";
+import css from "../assets/icons/css.svg";
+import js from "../assets/icons/js.svg";
+import mongoDB from "../assets/icons/mongoDB.svg";
+import nodeJs from "../assets/icons/nodeJS.json"; // ✅ Corrected import name (camelCase)
+
+import expressjs from "../assets/icons/expressjs.svg";
+import ml from "../assets/icons/ml.webp";
 import Lottie from "lottie-react";
-import sql from "../assets/icons/sql.jpg"
-import CAD from "../assets/icons/CAD.svg"
-import git from "../assets/icons/git.jpg"
-import aws from "../assets/aws.png"
-import python from "../assets/icons/download.png"
-import java from "../assets/icons/java.jpg"
-import bootstrap from "../assets/icons/Bootstrap_logo.svg.png"
-import cLang from "../assets/icons/down.png" // ✅ Ensure this icon exists
+import sql from "../assets/icons/sql.jpg";
+import CAD from "../assets/icons/CAD.svg";
+import git from "../assets/icons/git.jpg";
+import aws from "../assets/aws.png";
+import python from "../assets/icons/download.png";
+import java from "../assets/icons/java.jpg";
+import bootstrap from "../assets/icons/Bootstrap_logo.svg.png";
+import cLang from "../assets/icons/down.png"; // ✅ Ensure this icon exists
 
 const Skills = () => {
 	return (
@@ -56,7 +57,7 @@ const Skills = () => {
 						</div>
 					))}
 
-					{/* Backend */}
+					{/* Backend (NodeJS with Lottie) */}
 					<div>
 						<div className="w-36 h-36 border-2 border-[#61CE70]">
 							<Lottie animationData={nodeJs} loop={true} autoplay={true} style={{ width: 'full', height: 'full' }} />
@@ -86,7 +87,7 @@ const Skills = () => {
 						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#61CE70]">Git</h1>
 					</div>
 
-					{/* ServiceNow (CAD used for both) */}
+					{/* ServiceNow (CAD used for both CSA and CAD) */}
 					<div>
 						<div className="w-36 h-36 border-2 border-[#61CE70]">
 							<img src={CAD} alt="ServiceNow" className="h-full animateSkillImage p-6 mx-auto" />
