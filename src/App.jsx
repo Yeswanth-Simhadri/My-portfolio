@@ -10,7 +10,7 @@ import Projects from "./Component/Projects";
 import Footer from "./Component/Footer";
 import Education from "./Component/Education";
 import StarryBackground from "./Component/StarryBackground";
-import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
+import { ReactLenis, useLenis } from 'lenis/react'
 import Internship from "./Component/Internship";
 
 function App() {
