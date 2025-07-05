@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import pdf from "../assets/Yeswanth_Simhadri_Resume.pdf";
-
+import pdf from "../assets/Yeswanth_Resume.pdf";
 import "./banner.css";
 import ProfileImage from "../assets/profile-picture.webp.jpg";
 
