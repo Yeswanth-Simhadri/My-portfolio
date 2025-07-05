@@ -5,10 +5,10 @@
 
 	// Assets
 	import AIconomy from "../assets/websiteThumbnail/AIconomy.png";
-	import photo from "../assets/websiteThumbnail/photo.png";
+	import movie from "../assets/websiteThumbnail/movie.jpg";
+	import plant from "../assets/websiteThumbnail/plant.jpg";
 	import WanderLust from "../assets/websiteThumbnail/WanderLust.png";
 	import SptifyClone from "../assets/websiteThumbnail/SptifyClone.png";
-	import assetHexa from "../assets/websiteThumbnail/asset-hexa.webp";
 	import rock from "../assets/websiteThumbnail/RockPaperScissors.png";
 	import weather from "../assets/websiteThumbnail/Weather App.png";
 	import simons from "../assets/websiteThumbnail/SimonsSays.png";
@@ -21,7 +21,6 @@
 				thumbnailImage: WanderLust,
 				category: "FullStack",
 				serverLink: "https://github.com/Yeswanth-Simhadri/wanderlust-project",
-				liveLink: "https://bikroyelectronics.web.app/",
 			},
 			{
 				title: "Aiconomy",
@@ -36,11 +35,20 @@
 			},
 			
 			{
-				title: "Movie Recomandation System",
-				description: "A graphical tool for evaluating machine learning models.",
-				thumbnailImage: assetHexa,
+				title: "Movie Recommender 🎬",
+description: "🔑 Key Features:\n🎯 Content-Based Filtering: Used cosine similarity to suggest movies based on genres and preferences.\n🤝 Collaborative Filtering: Factored in user ratings and behaviors for smarter suggestions.\n🌐 Web Interface: Built an interactive Streamlit app for real-time movie recommendations.\n🔐 Tech Stack: Python, Pandas, Scikit-learn, Streamlit."
+,
+				thumbnailImage: movie,
 				category: "Machine Learning / ServiceNow",
-				serverLink: "https://github.com/NFRIDOY/ML-Model-Evaluator",
+				serverLink: "https://github.com/Yeswanth-Simhadri/Movie_Recommendation_System",
+			},
+			{
+				title: "Plant Disease Classifier 🌿",
+description: "🔑 Key Features:\n🧠 CNN Model: Trained on PlantVillage dataset to classify 38 plant disease categories with 88% accuracy.\n📥 Data Handling: Automated data download and preparation using Kaggle API & ImageDataGenerator.\n🌐 Web App: Interactive Streamlit app for real-time prediction from plant leaf images.\n🔐 Tech Stack: Python, TensorFlow, Kaggle API, Streamlit, Google Colab."
+,
+				thumbnailImage: plant,
+				category: "Machine Learning / ServiceNow",
+				serverLink: "https://github.com/Yeswanth-Simhadri/Plant-Disease-Prediction-using-CNN/tree/master",
 			},
 			{
 				title: "Educational Organisation Using ServiceNow",
@@ -51,7 +59,7 @@
     "⚙️ Built using custom tables, roles, and process flows in ServiceNow.",
 				thumbnailImage: service,
 				category: "Machine Learning / ServiceNow",
-				serverLink: "https://github.com/NFRIDOY/ML-Model-Evaluator",
+				serverLink: "https://github.com/Yeswanth-Simhadri/Education-Organization-ServiceNow",
 			},
 			{
 				title: "Spotify clone",
@@ -83,26 +91,26 @@
 				category: "FrontEnd",
 				serverLink: "https://github.com/Yeswanth-Simhadri/Web-Fun-Rock-Paper-Scissors-Amazon-Card-YouTube-Button",
 			},
-			{
-				title: "Weather App",
-  description:
-    "🌦️ WeatherApp – React-based live forecast application.\n\n" +
-    "🔍 Search by City: Instantly view temperature, humidity, and more by entering any city.\n\n" +
-    "⚛️ Built with React & OpenWeatherMap API for dynamic, real-time weather updates.",
-				thumbnailImage: weather,
-				category: "FrontEnd",
-				serverLink: "https://github.com/Yeswanth-Simhadri/React-Weather-website-",
-			},
-			{
-				title: "Photography",
-  description:
-    "📷 Photography Showcase – A modern static website built with HTML & CSS.\n\n" +
-    "📂 Sidebar Navigation: Responsive menu with sections like Gallery, Events, and Contact.\n\n" +
-    "🎨 Frosted Glass UI: Uses backdrop blur and includes stylish social media icons.",
-				thumbnailImage: photo,
-				category: "FrontEnd",
-				serverLink: "https://github.com/Yeswanth-Simhadri/Project-CSS-Photography",
-			},
+// 			{
+// 				title: "Weather App",
+//   description:
+//     "🌦️ WeatherApp – React-based live forecast application.\n\n" +
+//     "🔍 Search by City: Instantly view temperature, humidity, and more by entering any city.\n\n" +
+//     "⚛️ Built with React & OpenWeatherMap API for dynamic, real-time weather updates.",
+// 				thumbnailImage: weather,
+// 				category: "FrontEnd",
+// 				serverLink: "https://github.com/Yeswanth-Simhadri/React-Weather-website-",
+// 			},
+// 			{
+// 				title: "Photography",
+//   description:
+//     "📷 Photography Showcase – A modern static website built with HTML & CSS.\n\n" +
+//     "📂 Sidebar Navigation: Responsive menu with sections like Gallery, Events, and Contact.\n\n" +
+//     "🎨 Frosted Glass UI: Uses backdrop blur and includes stylish social media icons.",
+// 				thumbnailImage: photo,
+// 				category: "FrontEnd",
+// 				serverLink: "https://github.com/Yeswanth-Simhadri/Project-CSS-Photography",
+// 			},
 		];
 
 		const [activeButton, setActiveButton] = useState("All");
